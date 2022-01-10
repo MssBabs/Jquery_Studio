@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Ejercicios Jquery</title>
+</head>
+<body>
+    <main>
+        <section id="ejer1">
+            
+                <h2>Ejercicio 1</h2>
+                <p>
+                    Cree un enlace que lleve su nombre y una cabecera con 
+                    “Ejercicio1” Utilice jquery para que al pulsar en el 
+                    enlace se oculte el enlace con una duración de 5 
+                    segundos. Inmediatamente después se muestra tardando 
+                    3 segundos y finalmente se vuelve a mostrar en 0,2 
+                    segundos.<br>
+                    
+                    Luego lo volverá a mostrar tardando 2 segundos
+                    y nada más finalizar de mostrarlo se mostrará una
+                    alerta en pantalla “He tardado 2 segundos en mostrarme”
+                </p>
+            
+            <section id="contenido1">
+                <h3>Resultado</h3>
+                <a href="#" id="contenido1Res">
+                    Ejercicio1
+                </a>
+                
+            </section>
+        </section>
+
+        <section id="ejer2">
+            <h2>Ejercicio 2</h2>
+            <p>
+                Cree un botón con su nombre. Al situar el cursor en el
+                mismo se modificará la opacidad a 0,3 en 0,4 segundos. 
+                Y al salir se dejará como estaba en 0,4 segundos
+            </p>
+            
+            <section id="contenido2">
+                <h3>Resultado</h3>
+                <button name="buttonContenido2">pulsame</button>
+            </section>
+        </section>
+
+        <section id="ejer3">
+            <h2>Ejercicio 3</h2>
+            <p>
+                Cree un botón que al pulsarlo la primera vez lo mueva 
+                400px a la izquierda y la siguiente vez lo deje completamente 
+                a la izquierda. Si se vuelve a pulsar lo movería a 400px, 
+                si lo vuelve a pulsar a la izquierda,… y así sucesivamente. 
+                En el primer caso que sea slow y en  el segundo fast.
+            </p>
+            
+            <section id="contenido3">
+                <h3>Resultado</h3>
+                <button name="buttonContenido3">pillame</button>
+            </section>
+        </section>
+
+        <section id="ejer4">
+            
+            <h2>Ejercicio 4</h2>
+            <p>
+                Estudia y comprende el siguiente contenido. 
+                Luego pasa a hacer el ejercicio siguiente con estos conocimientos.
+            </p>
+            
+        </section>
+
+        <section id="ejer5">
+            
+            <h2>Ejercicio 5</h2>
+            <p>
+                Crea un formulario con 3 chexbox: Mayor de edad, Socio, Tarjeta Regalo.
+                Además tendrá una tabla con las siguientes filas:
+                    ⦁	Debe ir acompañado de un adulto
+                    ⦁	No puede traer invitados
+                    ⦁	Abonará 5% de tasas
+                    
+                En caso de pulsar el primer checkbox se esconderá la primera fila. 
+                En el caso de pulsar el segundo se esconderá la segunda fila y si se 
+                pulsa la tercera se esconderá la tercera fila. En caso contrario se mostrarán las mismas filas.
+            </p>
+            
+            <section id="contenido5">
+                <h3>Resultado</h3>
+                <form >
+                    <label><input type="checkbox" name="check1" id="check1"> Mayor de edad</label>
+                    <label><input type="checkbox" name="check2" id="check2"> Socio</label>
+                    <label><input type="checkbox" name="check3" id="check3"> Tarjeta Regalo</label>
+                </form>
+                <table>
+                    <tr id="linea1">
+                        <td>Debe ir acompañado de un adulto</td>
+                    </tr>
+                    <tr id="linea2">
+                        <td>No puede traer invitados</td>
+                    </tr>
+                    <tr id="linea3">
+                        <td>Abonará 5% de tasas</td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+
+        <section id="ejer6">
+            
+            <h2>Ejercicio 6</h2>
+            <p>
+                Crear un formulario que pida las notas de las asignaturas del curso. 
+                Al situarse el foco en cada uno de los campos de nota se debe modificar 
+                el color del texto a rojo. Cuando no tenga el foco el color del texto debe ser verde.
+            </p>
+            
+            <section id="contenido6">
+                <h3>Resultado</h3>
+                <form >
+                        <label>
+                            Asignatura 1 
+                            <input type="number" id="asignatura1">
+                        </label> <br>
+                        <label>
+                            Asignatura 2 
+                            <input type="number" id="asignatura2">
+                        </label> <br>
+                        <label>
+                            Asignatura 3 
+                            <input type="number" id="asignatura3">
+                        </label>
+                    
+                </form>
+            </section>
+        </section>
+
+        <section id="ejer7">
+            
+            <h2>Ejercicio 7</h2>
+            <p>
+                Crear una página web con elementos div algunos serán de la clase “selected” 
+                y otros no. Todos ellos tendrán párrafos dentro. Crear un script para que 
+                aquellos párrafos cuyo padre sea de la clase selected aparezcan con el fondo en color amarillo.
+            </p>
+            
+            <section id="contenido7">
+                <h3>Resultado</h3>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium voluptatem labore tempore laboriosam eum voluptatibus, atque illum, ipsam velit reiciendis itaque accusamus fuga quae reprehenderit. Quae magni consequuntur reiciendis alias.</p>
+                </div>
+                <div class="selected">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt corrupti voluptatibus veniam rerum earum, molestiae adipisci aliquid numquam laboriosam ex. Nisi officiis hic necessitatibus sint, in labore sit velit dolorem?</p>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ab eaque deleniti, similique reiciendis dolores rerum praesentium recusandae, velit accusamus vitae esse iure dolorem deserunt earum, veritatis optio necessitatibus ipsum?</p>
+                </div>
+            </section>
+        </section>
+    </main>
+
+
+</body>
+</html>

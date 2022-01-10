@@ -1,0 +1,27 @@
+
+body {
+    background-color: whitesmoke;
+    main{
+        display: grid;
+        gap: 1rem;
+        grid-auto-rows: auto;
+        grid-auto-flow: dense;
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+        section{
+            background-color: white;
+            border-radius: 1rem;
+            padding: 1rem;
+        }
+
+        #ejer3{
+            section{
+                button{
+                    position: relative;
+                }
+            }
+        }
+    }
+}

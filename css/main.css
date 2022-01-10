@@ -1,0 +1,25 @@
+body {
+  background-color: whitesmoke;
+}
+
+body main {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: auto;
+  grid-auto-flow: dense;
+  -ms-grid-columns: (minmax(20rem, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body main section {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+body main #ejer3 section button {
+  position: relative;
+}
+/*# sourceMappingURL=main.css.map */
